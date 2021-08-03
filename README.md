@@ -14,7 +14,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina a seguinte f
 
 3 - Para consultar os dados de um usuário especifico utilize a url acrescentando o id do usuário no final https://dados-usuarios-rest.herokuapp.com/usuarios/<id> com o metodo GET do Insomnia.
 
-4 - Para adicionar dados de um novo usuário, selecione o formato JSON no corpo da requisição do Insomnia, informe os dados e modifique o cabeçalho para o método POST com a url https://dados-usuarios-rest.herokuapp.com/usuarios/.
+4 - Para adicionar dados de um novo usuário, selecione o formato JSON no corpo da requisição do Insomnia, informe os dados **(menos o ID)** e modifique o cabeçalho para o método POST com a url https://dados-usuarios-rest.herokuapp.com/usuarios/.
 
 5 - Para editar os dados de um usuário específico, copie o id selecione o formato JSON no corpo da requisição do Insomnia, descreva as alterações e selecione o método PUT com a url https://dados-usuarios-rest.herokuapp.com/usuarios/<id>.
 
